@@ -56,7 +56,7 @@ func product(w http.ResponseWriter, r *http.Request) {
 		},
 		ProductData{
 			ID:       2,
-			Nama:     "Tanktop Goku",
+			Nama:     "Keyboard",
 			Harga:    "10.000",
 			Berat:    berat,
 			BeratFmt: strconv.FormatFloat(berat, 'f', -1, 64),
